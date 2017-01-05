@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tours & Travel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+ <style>
+ .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .bg-1{ 
+       background: url("http://data.whicdn.com/images/106253057/original.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+          background-size: cover;
+        /* background-color:	#20B2AA;*/ /* Green */
+      color: #ffffff;
+  }
+  
+  .bg-2{ 
+      background-color:	#383838 ; /* Green */
+      color: #ffffff;
+  }
+  
+  .bg-3{
+      background-color: #C0D9AF	;
+       -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+          background-size: cover;
+  }
+  
+  .one{
+      color:navy;
+      text-align:center;
+  }
+  p{
+      color:navy;
+  }
+  
+  
+  
+  
+  .imgcontainer{
+	text-align:center;
+	margin:24px 0 12px 0;
+	position:relative;
+}
+.img.avtar{
+	wigth:40%;
+	border-radius:80%;
+}
+.container{
+	padding:16px;
+}
+.modal{
+	display:none;
+	position:fixed;
+	z-index:1;
+	padding-top:100px;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    
+     .button {
+    background-color: 	#228B22;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+  
+
+  </style>
+  
+  
+  
+<body>
+<div class="bg-2">
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  <li><a data-toggle="tab" href="#menu1">North India</a></li>
+  <li><a data-toggle="tab" href="#menu2">South India</a></li>
+  <li><a data-toggle="tab" href="#menu3">West India</a></li>
+  <li><a data-toggle="tab" href="#menu4">East India</a></li>
+  <li style="float:right"><a data-toggle="tab" href="#register">Register</a></li>
+  <li style="float:right"><a data-toggle="tab" href="#home" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
+  
+</ul>
+</div>
+
+
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane bg-1 fade in active">
+      <div class="container text-center">
+        <h3>Yatra Tours & Travel</h3>
+        <img src="one.jpg" class="img-circle" alt="Bird" width="350" height="350">
+        <h3>Dream. Explore. Discover.</h3>
+        
+        
+        <div id="id01" class="modal" style="color:black;">
+  
+  <form class="modal-content">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="login.jpg" class="img-circle" alt="Bird" width="350" height="350">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+      <button class="button" type="button">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container">
+      <button type="button" class="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+      </div>
+      </div>
+      
+   
+      <div id="menu1" class=" panel-body bg-3 tab-pane fade " >
+          <h3 class="one">North India</h3>
+          <p>North India is a region in the northern part of India.
+            It includes the states Jammu and Kashmir, Haryana, Himachal Pradesh, Punjab, Uttar Pradesh and Uttarakhand. 
+            It also includes the Union Territory Chandigarh and Delhi. 
+            Delhi is the capital of the India. Chandigarh is the well planned city of the India.</p>
+            <p>It has a diverse culture, and includes the Hindu pilgrimage centers of Char Dham, Haridwar, Mathura, Allahabad and Varanasi, the Buddhist Mahabodhi Temple, the Sikh Golden Temple in Amritsar, Punjab. 
+            It houses the world heritage sites such as the Valley of flowers, Qutb Minar, Taj Mahal etc. 
+            Folk dances like the bhangra of the Punjab, rouf and bhand pather of Kashmir are quite famous. 
+            Jammu and Kashmir is known as the paradise of the India. 
+            The states Uttarakhand and Himachal Pradesh houses the famous hill stations like Kullu, Manali, Shimla, Dharamsala, Palampur, Mussoorie, Dehradun, Nainital etc. 
+            Some other famous cities are Gurgaon, Kurukshetra, Jammu, Ladakh(Leh), Srinagar, Amritsar, Ludhiana, Jalandhar etc.</p>
+         
+         <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="two.jpg" target="_blank">
+          <img src="two.jpg" alt="Lights" width="350" height="100">
+          <div class="caption">
+            <p align="center"><b>IMAGE-1</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="three.jpg" target="_blank">
+          <img src="three.jpg" alt="Nature" width="400" height="100px">
+          <div class="caption">
+            <p align="center"><b>IMAGE-2</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="four.jpg" target="_blank">
+          <img src="four.jpg" alt="Fjords" width="350" height="150">
+          <div class="caption">
+            <p align="center"><b>IMAGE-3</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+      </div>
+      
+      <div id="menu2" class=" panel-body bg-3 tab-pane fade">
+        <h3 class="one">South India</h3>
+        <p>South India is an enchanting land of many ancient cultures and heritage, and sun drenched sand and sea, in the southern tip of the country, lapped by Arabian Sea, Indian Ocean and Bay of Bengal.
+        There are many things to do and see here and hence travel to South India for your best family vacation destinations. </p>  
+        <p>The main states belong to this part of the country are Kerala, Andhra Pradesh, Telangana, Karnataka and Tamilnadu including Pondicherry.
+        (The State of Andhra Pradesh was divided into two states -  Andhra Pradesh and Telangana  -  on 2nd June 2014. )
+        Since the visitors come all the way here they also visit Goa, which is very nearer to these states. </p>
+          <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="southOne.jpg" target="_blank">
+          <img src="southOne.jpg" alt="Lights" width="450" height="100">
+          <div class="caption">
+            <p align="center"><b>IMAGE-1</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="southTwo.jpg" target="_blank">
+          <img src="southTwo.jpg" alt="Nature" width="450" height="100px">
+          <div class="caption">
+            <p align="center"><b>IMAGE-2</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="southThree.jpg" target="_blank">
+          <img src="southThree.jpg" alt="Fjords" width="420" height="250">
+          <div class="caption">
+            <p align="center"><b>IMAGE-3</b></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+        
+      </div>
+      
+      <div id="menu3" class=" panel-body bg-3 tab-pane fade">
+        <h3 class="one">West India</h3>
+        <p>Some content in menu 1.</p>
+      </div>
+      
+      <div id="menu4" class=" panel-body bg-3 tab-pane fade">
+        <h3 class="one">East India</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+      
+        
+      
+      <div id="register" class=" panel-body bg-3 tab-pane fade">
+        <h3 class="one">Register</h3>
+        <p>Some content in register.</p>
+      </div>
+      </div>
+   
+
+    <div class="panel-footer bg-2 text-center">
+      <h3>Where to find us?</h3>
+      <p>Contact us :</p>
+      &#9742;:99XXXXXXXX<br>
+      &#x2709;:yatratravel@gmail.com
+ </div>
+</body>
+</html>
+
