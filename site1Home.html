@@ -8,6 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="mystyle1.css">
+  <script>
+     function load_home(){
+            document.getElementById("content").innerHTML='<object type="type/html" data="foot.html" ></object>';
+  }
+  </script>
 </head>
 <body>
 <div class="bg-2">
@@ -58,14 +63,9 @@
 </div>
       </div>
       </div>
-
-    <div class="panel-footer bg-2 text-center">
-      <h3>Where to find us?</h3>
-      <p>Contact us :</p>
-      &#9742;:99XXXXXXXX<br>
-      &#x2709;:yatratravel@gmail.com
- </div>
-
+  </div>
+  <div id="content"></div>
+   
 
 </body>
 </html>
